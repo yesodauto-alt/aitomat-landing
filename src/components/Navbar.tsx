@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { ExternalLink, Menu, X, ArrowRight } from "lucide-react";
-import { WHATSAPP_LINK, APP_URL } from "../constants";
+import { Menu, X, ArrowRight } from "lucide-react";
+import { WHATSAPP_LINK } from "../constants";
 
 interface NavbarProps {
   onOpenContact?: () => void;
@@ -57,19 +57,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
             </a>
           </nav>
 
-          {/* Right Action Buttons */}
-          <div className="hidden lg:flex items-center gap-4">
-            {/* Discreet Login Link */}
-            <a
-              href={APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs font-medium text-zinc-400 hover:text-zinc-200 transition-colors px-2 py-1"
-            >
-              <span>Entrar</span>
-              <ExternalLink className="w-3 h-3 text-zinc-500" />
-            </a>
-
+          {/* Right Action Button */}
+          <div className="hidden lg:flex items-center">
             {/* Primary Commercial CTA Button in Orange */}
             <button
               onClick={handleCtaClick}
@@ -149,16 +138,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
               <span>Solicitar Demonstração</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </button>
-
-            <a
-              href={APP_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full flex items-center justify-center gap-1.5 py-2 text-xs font-medium text-zinc-400 hover:text-white"
-            >
-              <span>Entrar na plataforma</span>
-              <ExternalLink className="w-3 h-3" />
-            </a>
           </div>
         </div>
       )}

@@ -1,6 +1,6 @@
 import React from "react";
-import { ExternalLink, ShieldCheck } from "lucide-react";
-import { WHATSAPP_LINK, APP_URL } from "../constants";
+import { ShieldCheck } from "lucide-react";
+import { WHATSAPP_LINK } from "../constants";
 
 interface FooterProps {
   onOpenContact?: () => void;
@@ -112,17 +112,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
                   Solicitar Demonstração
                 </button>
               </li>
-              <li>
-                <a
-                  href={APP_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 text-zinc-500 hover:text-zinc-300 transition-colors"
-                >
-                  <span>Entrar no Sistema</span>
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </li>
             </ul>
           </div>
 
@@ -155,10 +144,6 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
             <button onClick={handleCtaClick} className="hover:text-zinc-300 cursor-pointer">
               Atendimento Comercial
             </button>
-            <span>•</span>
-            <a href={APP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-300">
-              Acesso
-            </a>
           </div>
         </div>
       </div>
