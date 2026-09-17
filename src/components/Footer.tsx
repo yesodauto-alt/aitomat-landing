@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { ExternalLink, ShieldCheck } from "lucide-react";
 import { WHATSAPP_LINK, APP_URL } from "../constants";
 
@@ -31,8 +31,20 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
               </span>
             </a>
 
+            <p className="text-xs text-zinc-300 font-medium">
+              AITOMat — um produto da{" "}
+              <a
+                href="https://yesodautomation.com.br/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#f97316] hover:underline"
+              >
+                Yesod Automation
+              </a>
+            </p>
+
             <p className="text-xs text-zinc-400 leading-relaxed">
-              Plataforma inteligente para operação comercial, atendimento e automação desenvolvida pela Yesod Automation.
+              Automação e Inteligência Artificial aplicadas a operações reais. A máquina executa, o humano volta a pensar.
             </p>
 
             <div className="flex items-center gap-2 text-[11px] text-zinc-400 font-mono">
@@ -138,7 +150,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenContact }) => {
 
         {/* Bottom Bar */}
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-zinc-500 font-mono">
-          <p>© {new Date().getFullYear()} AITOMat • Yesod Automation. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} AITOMat — um produto da Yesod Automation (yesodautomation.com.br). Todos os direitos reservados.</p>
           <div className="flex items-center gap-4">
             <button onClick={handleCtaClick} className="hover:text-zinc-300 cursor-pointer">
               Atendimento Comercial

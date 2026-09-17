@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 import { ExternalLink, Menu, X, ArrowRight } from "lucide-react";
 import { WHATSAPP_LINK, APP_URL } from "../constants";
 
@@ -31,8 +31,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenContact }) => {
                 <span className="text-lg font-bold tracking-tight text-white font-sans">
                   AITO<span className="text-[#f97316]">Mat</span>
                 </span>
-                <span className="hidden sm:inline-block text-[10px] font-mono text-zinc-500 font-medium uppercase tracking-wider px-1.5 py-0.5 rounded bg-zinc-900/80 border border-zinc-800">
-                  Operação &amp; IA
+                <span className="hidden sm:inline-block text-[10px] font-mono text-zinc-400 font-medium uppercase tracking-wider px-1.5 py-0.5 rounded bg-zinc-900/80 border border-zinc-800">
+                  um produto Yesod
                 </span>
               </div>
             </a>

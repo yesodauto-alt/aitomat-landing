@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { WHATSAPP_LINK } from "../constants";
 
@@ -11,17 +11,17 @@ export const StepsSection: React.FC<StepsProps> = ({ onOpenContact }) => {
     {
       number: "Passo 1",
       action: "Conecte",
-      desc: "Centralize os pontos de contato e organize sua estrutura operacional."
+      desc: "Integre o WhatsApp oficial da Meta e centralize seus canais em um único inbox multiagente."
     },
     {
       number: "Passo 2",
       action: "Organize",
-      desc: "Relacione clientes, oportunidades, equipe e informações em um mesmo contexto."
+      desc: "Unifique clientes, pipeline de vendas e histórico completo de atendimento sem perda de dados."
     },
     {
       number: "Passo 3",
       action: "Evolua",
-      desc: "Use prioridades, automações e Inteligência Artificial para dar mais ritmo à operação."
+      desc: "Deixe a IA e as automações operarem 70% da rotina para sua equipe focar em fechar mais vendas."
     }
   ];
 

@@ -24,10 +24,10 @@ export const AutomationSection: React.FC<AutomationProps> = ({ onOpenContact }) 
           <span>AUTOMAÇÃO OPERACIONAL</span>
         </div>
         <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
-          Automatize processos sem perder contexto.
+          Automatize processos sem perder o contexto.
         </h2>
         <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed">
-          A automação ganha valor quando está conectada ao que acontece dentro da operação. O AITOMat permite criar processos que reduzem trabalho manual e ajudam a equipe a manter ritmo, consistência e acompanhamento.
+          A máquina executa. O humano volta a pensar. Crie fluxos automáticos que eliminam tarefas repetitivas, mantêm a operação no ritmo certo e garantem que nenhum cliente fique sem acompanhamento.
         </p>
       </div>
 
@@ -45,7 +45,7 @@ export const AutomationSection: React.FC<AutomationProps> = ({ onOpenContact }) 
           <span className="font-mono text-xs font-bold text-[#f97316] block mb-2">02</span>
           <h3 className="text-sm font-bold text-white mb-2">Lembretes &amp; Follow-ups</h3>
           <p className="text-xs text-zinc-400 leading-relaxed">
-            Acione avisos automáticos e reengaje clientes que aguardam retorno, sem depender da memória dos atendentes.
+            Acione avisos automáticos e reengaje clientes que aguardam retorno, sem depender da memória dos vendedores.
           </p>
         </div>
 
@@ -58,7 +58,6 @@ export const AutomationSection: React.FC<AutomationProps> = ({ onOpenContact }) 
         </div>
       </div>
 
-
       {/* Part 2: WhatsApp & Meta API Cloud */}
       <div className="p-8 sm:p-12 rounded-2xl bg-zinc-900/50 border border-zinc-800 flex flex-col lg:flex-row items-center justify-between gap-8">
         <div className="max-w-2xl space-y-4 text-left">
@@ -68,11 +67,11 @@ export const AutomationSection: React.FC<AutomationProps> = ({ onOpenContact }) 
           </div>
 
           <h3 className="text-xl sm:text-3xl font-bold text-white tracking-tight">
-            O atendimento acontece onde seu cliente está.
+            O atendimento acontece onde seu cliente está: no WhatsApp.
           </h3>
 
           <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed">
-            O AITOMat conecta canais de comunicação diretamente à operação comercial da sua empresa, com suporte nativo à API Oficial da Meta (WhatsApp Business Platform).
+            O AITOMat conecta sua empresa diretamente à API Oficial da Meta (WhatsApp Business Platform). Segurança institucional em nuvem, sem risco de bloqueio e com toda a equipe atendendo no mesmo número.
           </p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
@@ -92,7 +91,7 @@ export const AutomationSection: React.FC<AutomationProps> = ({ onOpenContact }) 
             onClick={handleCtaClick}
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 text-xs sm:text-sm font-semibold px-7 py-3.5 bg-[#f97316] hover:bg-[#ea580c] text-white rounded-lg transition-all border border-orange-400/40 shadow-md cursor-pointer"
           >
-            <span>Falar com a Yesod</span>
+            <span>Solicitar Demonstração</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>

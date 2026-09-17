@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { Bot, Sparkles, BrainCircuit, CheckCircle2 } from "lucide-react";
 
 export const IntelligenceSection: React.FC = () => {
@@ -14,8 +14,11 @@ export const IntelligenceSection: React.FC = () => {
           <br />
           <span className="text-[#f97316]">não isolada dela.</span>
         </h2>
-        <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed">
-          No AITOMat, a Inteligência Artificial pode apoiar o atendimento, organizar contexto, contribuir para processos e trabalhar junto com a operação da empresa.
+        <p className="mt-4 text-zinc-300 text-sm sm:text-base leading-relaxed font-medium">
+          O sistema opera 70% da rotina de forma autônoma; a equipe decide e fecha.
+        </p>
+        <p className="mt-2 text-zinc-400 text-xs sm:text-sm leading-relaxed max-w-2xl mx-auto">
+          Diferente de ferramentas que apenas respondem texto, o AITOMat integra IA diretamente ao CRM, às tarefas e aos dados comerciais da sua empresa.
         </p>
       </div>
 
@@ -41,21 +44,21 @@ export const IntelligenceSection: React.FC = () => {
             <ul className="space-y-3 text-xs text-zinc-400 leading-relaxed">
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#f97316] flex-shrink-0 mt-0.5" />
-                <span>Interpreta conversas em linguagem natural e identifica contexto e intenção.</span>
+                <span>Atende 24/7 com linguagem natural e identifica contexto e intenção de compra.</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#f97316] flex-shrink-0 mt-0.5" />
-                <span>Realiza triagem ágil e qualificação de acordo com as regras da sua empresa.</span>
+                <span>Realiza triagem e classificação automática de acordo com as regras do negócio.</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#f97316] flex-shrink-0 mt-0.5" />
-                <span>Encaminha atendimentos para o setor ou atendente correto com histórico preservado.</span>
+                <span>Direciona o atendimento para o especialista certo com histórico preservado.</span>
               </li>
             </ul>
           </div>
 
           <div className="mt-8 pt-4 border-t border-zinc-800/80 text-[11px] text-zinc-500 font-mono">
-            Objetivo: Resposta rápida com contexto humano preservado
+            Objetivo: Atendimento imediato sem filas e sem perda de contexto
           </div>
         </div>
 
@@ -83,17 +86,17 @@ export const IntelligenceSection: React.FC = () => {
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#f97316] flex-shrink-0 mt-0.5" />
-                <span>Avalia temperatura comercial e sugere ações prioritárias para a equipe de vendas.</span>
+                <span>Define e sugere as próximas ações para a equipe (prioridades, follow-ups, tarefas).</span>
               </li>
               <li className="flex items-start gap-2">
                 <CheckCircle2 className="w-4 h-4 text-[#f97316] flex-shrink-0 mt-0.5" />
-                <span>Alimenta automações e follow-ups estratégicos sem exigir tarefas manuais repetitivas.</span>
+                <span>Controla dados de marketing e custo de aquisição de cliente (CAC) em tempo real.</span>
               </li>
             </ul>
           </div>
 
-          <div className="mt-8 pt-4 border-t border-zinc-800/80 text-[11px] text-zinc-500 font-mono">
-            Objetivo: Visão estratégica e ganho de tempo para os vendedores
+          <div className="mt-8 pt-4 border-t border-zinc-800/80 text-[11px] text-[#f97316] font-mono font-medium">
+            IA não é custo. É tempo devolvido.
           </div>
         </div>
       </div>

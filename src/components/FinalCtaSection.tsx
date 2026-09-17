@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { ArrowRight, Sparkles } from "lucide-react";
 import { WHATSAPP_LINK } from "../constants";
 
@@ -21,17 +21,17 @@ export const FinalCtaSection: React.FC<FinalCtaProps> = ({ onOpenContact }) => {
         <div className="max-w-3xl mx-auto space-y-6">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-orange-500/10 border border-orange-500/30 text-xs font-semibold text-[#f97316]">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>OPERAÇÃO CONECTADA</span>
+            <span>SISTEMA 70% AUTÔNOMO</span>
           </div>
 
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold tracking-tight text-white leading-tight">
-            Sua operação já gera informação todos os dias.
+            Sua operação não precisa viver no improviso.
             <br />
-            <span className="text-[#f97316]">Agora transforme essa informação em ação.</span>
+            <span className="text-[#f97316]">O AITOMat conduz. Sua equipe fecha.</span>
           </h2>
 
           <p className="text-xs sm:text-base text-zinc-400 leading-relaxed max-w-2xl mx-auto">
-            Conheça uma plataforma criada para conectar atendimento, gestão comercial, automação e Inteligência Artificial dentro da mesma operação.
+            Automatize a rotina comercial e de atendimento, tenha histórico unificado no WhatsApp e garanta que nenhum lead fique sem resposta.
           </p>
 
           <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-3.5">

@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { MessageSquare, Kanban, Sparkles, Building2, Layers, CheckCircle2 } from "lucide-react";
 
 export const ArchitectureSection: React.FC = () => {
@@ -6,47 +6,44 @@ export const ArchitectureSection: React.FC = () => {
     {
       icon: MessageSquare,
       title: "Atendimento & Relacionamento",
-      desc: "Comunicação centralizada em múltiplos canais com histórico integrado.",
+      desc: "Comunicação centralizada em múltiplos canais com histórico 360° integrado.",
       items: [
-        "Inbox unificado multiagente",
-        "WhatsApp integrado via API Oficial Meta",
-        "Base consolidada de contatos e contexto 360°"
+        "Inbox unificado multiagente em um só número",
+        "WhatsApp integrado via API Oficial da Meta",
+        "Base consolidada de contatos e histórico sem perda de dados"
       ],
-      tag: "Relacionamento"
+      tag: "Canais & Contatos"
     },
     {
       icon: Kanban,
       title: "Gestão Comercial",
       desc: "Acompanhamento transparente de cada etapa do processo de vendas.",
       items: [
-        "Funil de vendas visual em Kanban",
-        "Triagem ágil e qualificação de leads",
-        "Painel operacional de prioridades por temperatura",
-        "Gestão de produtos e propostas comerciais"
+        "Funil de vendas visual em etapas claras e configuráveis",
+        "Triagem ágil para saber quais leads estão prontos para comprar",
+        "Gestão de oportunidades e controle do custo de aquisição (CAC)"
       ],
-      tag: "Vendas"
+      tag: "Vendas & CRM"
     },
     {
       icon: Sparkles,
       title: "Inteligência & Execução",
-      desc: "Tecnologia que auxilia ativamente o trabalho da sua equipe.",
+      desc: "IA que opera a rotina para a equipe focar em negociação e fechamento.",
       items: [
-        "IA Assistente para atendimento e qualificação",
-        "IA Interna para resumos e contexto do CRM",
-        "Automações de triagem, notificações e retorno",
-        "Tarefas, lembretes e controle de calendário"
+        "IA Assistente para atendimento 24/7 e triagem por intenção",
+        "IA Interna para resumos automáticos de conversas no CRM",
+        "Definição e sugestão de próximas ações, tarefas e follow-ups"
       ],
-      tag: "Produtividade"
+      tag: "IA & Automação"
     },
     {
       icon: Building2,
-      title: "Estrutura Operacional",
-      desc: "Governança e escala para empresas de diferentes portes.",
+      title: "Estrutura & Governança",
+      desc: "Segurança, níveis de acesso e escala para equipes em crescimento.",
       items: [
-        "Gestão de múltiplos atendentes e equipes",
-        "Controle refinado de permissões e acessos",
-        "Arquitetura em nuvem de alta disponibilidade",
-        "Suporte multitenant para diferentes operações"
+        "Divisão por departamentos e rodízio inteligente de leads",
+        "Controle refinado de permissões para gestores e atendentes",
+        "Arquitetura em nuvem de alta disponibilidade criada pela Yesod"
       ],
       tag: "Governança"
     }
@@ -57,13 +54,13 @@ export const ArchitectureSection: React.FC = () => {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-zinc-900 border border-zinc-800 rounded-md text-[11px] font-mono text-zinc-400 mb-4">
           <Layers className="w-3.5 h-3.5 text-[#f97316]" />
-          <span>ECOSSISTEMA INTEGRADO</span>
+          <span>COMO A OPERAÇÃO SE ORGANIZA</span>
         </div>
         <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
           A arquitetura operacional do AITOMat
         </h2>
         <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed">
-          Mais do que ferramentas isoladas, um ecossistema completo onde cada camada fortalece as demais dentro do mesmo fluxo de trabalho.
+          Um ecossistema único onde atendimento, gestão comercial, automação e inteligência trabalham juntos para sustentar a sua operação.
         </p>
       </div>
 
@@ -81,7 +78,7 @@ export const ArchitectureSection: React.FC = () => {
                   <div className="w-9 h-9 rounded-lg bg-zinc-800 text-[#f97316] border border-zinc-700/80 flex items-center justify-center">
                     <Icon className="w-4 h-4" />
                   </div>
-                  <span className="text-[10px] font-mono uppercase tracking-wider text-zinc-500 font-semibold px-2 py-0.5 rounded bg-zinc-800/50 border border-zinc-700/50">
+                  <span className="text-[10px] font-mono uppercase tracking-wider text-zinc-400 font-semibold px-2 py-0.5 rounded bg-zinc-800/50 border border-zinc-700/50">
                     {block.tag}
                   </span>
                 </div>

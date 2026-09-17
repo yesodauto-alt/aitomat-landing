@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { Flag, Clock, Flame, CheckCircle2, Sparkles } from "lucide-react";
 
 export const PrioritiesSection: React.FC = () => {
@@ -7,7 +7,7 @@ export const PrioritiesSection: React.FC = () => {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-zinc-900 border border-zinc-800 rounded-md text-[11px] font-mono text-zinc-400 mb-4">
           <Flag className="w-3.5 h-3.5 text-[#f97316]" />
-          <span>DIFERENCIAL OPERACIONAL</span>
+          <span>AÇÃO IMEDIATA</span>
         </div>
         <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
           Não basta saber o que aconteceu.
@@ -15,7 +15,7 @@ export const PrioritiesSection: React.FC = () => {
           <span className="text-[#f97316]">É preciso saber onde agir agora.</span>
         </h2>
         <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed">
-          O AITOMat organiza sinais da operação para destacar o que exige atenção: respostas pendentes, oportunidades em andamento, tarefas, recência, temperatura comercial e próximos passos.
+          O AITOMat organiza as prioridades da operação para sua equipe saber quais leads estão prontos para comprar agora, o tempo desde o último contato e as próximas tarefas a executar.
         </p>
       </div>
 
@@ -29,7 +29,7 @@ export const PrioritiesSection: React.FC = () => {
             </div>
             <div>
               <span className="text-xs font-bold text-white block">Respostas Pendentes</span>
-              <span className="text-[11px] text-zinc-400">Tempo de espera controlado sem clientes esquecidos.</span>
+              <span className="text-[11px] text-zinc-400">Controle do tempo de espera sem deixar nenhum cliente sem retorno.</span>
             </div>
           </div>
 
@@ -38,8 +38,8 @@ export const PrioritiesSection: React.FC = () => {
               <Flame className="w-4 h-4" />
             </div>
             <div>
-              <span className="text-xs font-bold text-white block">Temperatura Comercial</span>
-              <span className="text-[11px] text-zinc-400">Identificação instantânea de leads quentes e prontos.</span>
+              <span className="text-xs font-bold text-white block">Prontos para Comprar</span>
+              <span className="text-[11px] text-zinc-400">Identificação clara de quem tem maior intenção e está pronto para fechar.</span>
             </div>
           </div>
 
@@ -49,7 +49,7 @@ export const PrioritiesSection: React.FC = () => {
             </div>
             <div>
               <span className="text-xs font-bold text-white block">Próxima Ação Definida</span>
-              <span className="text-[11px] text-zinc-400">Cada conversa tem um responsável e uma tarefa clara.</span>
+              <span className="text-[11px] text-zinc-400">Cada conversa tem um responsável atribuído e um próximo passo claro.</span>
             </div>
           </div>
         </div>
@@ -72,12 +72,12 @@ export const PrioritiesSection: React.FC = () => {
 
                 <div className="flex items-center gap-2 px-3 py-0.5 bg-zinc-900/90 border border-white/10 rounded-full text-[11px] font-mono text-zinc-300">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#f97316] animate-pulse" />
-                  <span>Painel Operacional de Prioridades &amp; Temperatura Comercial</span>
+                  <span>Painel de Prioridades — Leads Prontos para Fechar</span>
                 </div>
 
                 <div className="hidden sm:flex items-center gap-1 text-[10px] font-mono text-orange-400 bg-orange-500/10 border border-orange-500/30 px-2.5 py-0.5 rounded">
                   <Sparkles className="w-3 h-3" />
-                  <span>Score Ativo</span>
+                  <span>Prioridades da Operação</span>
                 </div>
               </div>
 
@@ -85,7 +85,7 @@ export const PrioritiesSection: React.FC = () => {
               <div className="relative overflow-hidden bg-[#07080a]">
                 <img
                   src="/aitomat-screen-prioridades.png"
-                  alt="Painel de Prioridades do AITOMat com Temperatura Comercial"
+                  alt="Painel de Prioridades do AITOMat com leads prontos para fechar"
                   className="w-full h-auto object-cover object-top"
                 />
                 <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-white/[0.02] via-transparent to-transparent" />
@@ -102,14 +102,14 @@ export const PrioritiesSection: React.FC = () => {
         <div className="p-6 rounded-xl bg-gradient-to-r from-orange-950/30 via-zinc-900/60 to-zinc-950 border border-orange-500/20 flex flex-col sm:flex-row items-center justify-between gap-4 text-center sm:text-left">
           <div>
             <span className="text-xs font-mono uppercase tracking-wider text-[#f97316] block mb-1">
-              Foco &amp; Produtividade
+              Foco &amp; Fechamento
             </span>
             <p className="text-base sm:text-lg font-bold text-white">
-              Menos tempo procurando informação. Mais tempo tomando ação.
+              Menos tempo procurando informação. Mais tempo fechando vendas.
             </p>
           </div>
-          <span className="text-xs font-mono text-zinc-400 px-3 py-1.5 rounded bg-zinc-900 border border-zinc-800">
-            Operação Orientada a Ação
+          <span className="text-xs font-mono text-zinc-300 px-3.5 py-1.5 rounded bg-zinc-900 border border-zinc-800">
+            O AITOMat conduz, a equipe decide e fecha
           </span>
         </div>
       </div>

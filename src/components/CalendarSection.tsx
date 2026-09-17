@@ -29,7 +29,7 @@ export const CalendarSection: React.FC<CalendarSectionProps> = ({ onOpenContact 
           <span className="text-[#f97316]">Agenda integrada ao atendimento.</span>
         </h2>
         <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed">
-          No AITOMat, a agenda não é isolada do CRM. Cada reunião, demonstração ou retorno comercial fica atrelado ao histórico de conversa do cliente e ao responsável pela ação.
+          No AITOMat, a agenda não é isolada do CRM. Com lembretes automáticos via WhatsApp antes de cada reunião, você reduz o no-show e garante continuidade comercial.
         </p>
       </div>
 
@@ -43,7 +43,7 @@ export const CalendarSection: React.FC<CalendarSectionProps> = ({ onOpenContact 
             </div>
             <div>
               <span className="text-xs font-bold text-white block">Vinculado ao Cliente</span>
-              <span className="text-[11px] text-zinc-400">Compromisso visível na timeline de atendimento do contato.</span>
+              <span className="text-[11px] text-zinc-400">Reuniões e retornos salvos direto na linha do tempo do contato no CRM.</span>
             </div>
           </div>
 
@@ -53,7 +53,7 @@ export const CalendarSection: React.FC<CalendarSectionProps> = ({ onOpenContact 
             </div>
             <div>
               <span className="text-xs font-bold text-white block">Redução de No-Show</span>
-              <span className="text-[11px] text-zinc-400">Lembretes automáticos via WhatsApp antes de cada reunião.</span>
+              <span className="text-[11px] text-zinc-400">Lembretes automáticos via WhatsApp enviados antes de cada compromisso.</span>
             </div>
           </div>
 
@@ -62,8 +62,8 @@ export const CalendarSection: React.FC<CalendarSectionProps> = ({ onOpenContact 
               <CheckCircle2 className="w-4 h-4" />
             </div>
             <div>
-              <span className="text-xs font-bold text-white block">Continuidade Operacional</span>
-              <span className="text-[11px] text-zinc-400">Após a reunião, registre o desfecho e avance o funil comercial.</span>
+              <span className="text-xs font-bold text-white block">Continuidade Comercial</span>
+              <span className="text-[11px] text-zinc-400">Histórico integrado para o vendedor saber exatamente o que apresentar.</span>
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ export const CalendarSection: React.FC<CalendarSectionProps> = ({ onOpenContact 
                 </div>
 
                 <div className="hidden sm:flex items-center gap-1 text-[10px] font-mono text-orange-400 bg-orange-500/10 border border-orange-500/30 px-2.5 py-0.5 rounded">
-                  <span>Sincronizado</span>
+                  <span>Lembretes Ativos</span>
                 </div>
               </div>
 
@@ -115,10 +115,10 @@ export const CalendarSection: React.FC<CalendarSectionProps> = ({ onOpenContact 
         <div className="text-center pt-2">
           <button
             onClick={handleCtaClick}
-            className="inline-flex items-center gap-2 text-xs font-semibold px-6 py-3 bg-zinc-900 hover:bg-zinc-800 text-white rounded-lg border border-zinc-700/80 transition-all hover:border-orange-500/50 cursor-pointer shadow-sm"
+            className="inline-flex items-center gap-2 text-xs font-semibold px-7 py-3.5 bg-[#f97316] hover:bg-[#ea580c] text-white rounded-lg transition-all border border-orange-400/40 shadow-md cursor-pointer"
           >
-            <span>Ver Como Funciona a Agenda</span>
-            <ArrowRight className="w-3.5 h-3.5 text-[#f97316]" />
+            <span>Solicitar Demonstração</span>
+            <ArrowRight className="w-4 h-4" />
           </button>
         </div>
       </div>

@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { ProductCarousel } from "./ProductCarousel";
 import { WHATSAPP_LINK } from "../constants";
@@ -20,12 +20,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
     <section id="inicio" className="relative pt-12 sm:pt-20 pb-16 sm:pb-24 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto space-y-6">
-          {/* Subtle Category Pill */}
+          {/* Category Pill with 70% Autonomous Highlight */}
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-zinc-900/90 border border-zinc-800 text-xs font-medium text-zinc-300 shadow-inner">
             <span className="flex h-2 w-2 rounded-full bg-[#f97316] animate-pulse" />
             <span className="text-[#f97316] font-semibold">AITOMat</span>
             <span className="text-zinc-600">|</span>
-            <span>Plataforma Inteligente de Operação Comercial</span>
+            <span>Sistema 70% Autônomo de Operação Comercial</span>
           </div>
 
           {/* Main Headline */}
@@ -39,9 +39,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
             </span>
           </h1>
 
-          {/* Subheadline */}
+          {/* Subheadline - Direct Benefit & Outcome */}
           <p className="text-base sm:text-lg md:text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed font-normal">
-            O AITOMat conecta atendimento, gestão comercial, automações e Inteligência Artificial para transformar informações em contexto, prioridades e próximas ações.
+            Atendimento, vendas e IA no mesmo lugar — para você nunca mais perder um lead. O AITOMat opera 70% da rotina de forma autônoma enquanto sua equipe decide e fecha.
           </p>
 
           {/* Action CTAs */}
@@ -62,23 +62,23 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
             </a>
           </div>
 
-          {/* Refined Support Row - 4 Elegant Highlights */}
+          {/* Refined Support Row - 4 Direct Client Outcomes */}
           <div className="pt-6 flex flex-wrap items-center justify-center gap-y-3 gap-x-8 text-xs text-zinc-400">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-[#f97316]" />
-              <span>Atendimento integrado à operação</span>
+              <span>Atendimento e triagem por intenção 24/7</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-[#f97316]" />
-              <span>Inteligência Artificial aplicada ao contexto</span>
+              <span>Resumos automáticos e histórico no CRM</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-[#f97316]" />
-              <span>Automação conectada ao processo</span>
+              <span>Próximas ações e follow-ups sugeridos</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-[#f97316]" />
-              <span>Estrutura preparada para equipes</span>
+              <span>Controle comercial e de CAC unificado</span>
             </div>
           </div>
         </div>

@@ -1,37 +1,32 @@
-﻿import React from "react";
-import { ArrowRight, MessageSquare, HeartHandshake, TrendingUp, Flag, CheckSquare, RefreshCw } from "lucide-react";
+import React from "react";
+import { ArrowRight, MessageSquare, HeartHandshake, TrendingUp, Flag, CheckSquare } from "lucide-react";
 
 export const ConnectedFlowSection: React.FC = () => {
   const steps = [
     {
       icon: MessageSquare,
       title: "Atendimento",
-      desc: "Primeiro contato, triagem ágil e escuta ativa multicanal."
+      desc: "Triagem ágil e classificação por intenção para responder ao cliente na hora."
     },
     {
       icon: HeartHandshake,
       title: "Relacionamento",
-      desc: "Identificação do perfil, dados cadastrais e histórico completo."
+      desc: "Histórico completo e dados cadastrais sem perder o contexto da conversa."
     },
     {
       icon: TrendingUp,
       title: "Oportunidade",
-      desc: "Registro no pipeline comercial e contextualização da demanda."
+      desc: "Conversas transformadas em demandas comerciais sem retrabalho manual."
     },
     {
       icon: Flag,
       title: "Prioridade",
-      desc: "Sinalização por temperatura comercial, urgência e recência."
+      desc: "Destaque automático de quais leads estão prontos para comprar agora."
     },
     {
       icon: CheckSquare,
       title: "Próxima Ação",
-      desc: "Atribuição de responsável, tarefas e follow-up estratégico."
-    },
-    {
-      icon: RefreshCw,
-      title: "Acompanhamento",
-      desc: "Visão contínua da jornada até a conclusão da negociação."
+      desc: "Tarefas e follow-ups sugeridos para o vendedor fechar com rapidez."
     }
   ];
 
@@ -46,12 +41,12 @@ export const ConnectedFlowSection: React.FC = () => {
           Uma plataforma para conduzir a operação inteira.
         </h2>
         <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed">
-          O AITOMat conecta atendimento, relacionamento, oportunidades, automação e inteligência para que cada parte da operação trabalhe com o mesmo contexto.
+          O AITOMat conecta atendimento, CRM, automações e Inteligência Artificial para que cada parte da sua empresa trabalhe com o mesmo contexto.
         </p>
       </div>
 
-      {/* Modern Conceptual Connected Flow Visual */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-3 mb-16">
+      {/* 5-Step Connected Flow Visual */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5 mb-16">
         {steps.map((item, idx) => {
           const Icon = item.icon;
           return (
@@ -63,7 +58,7 @@ export const ConnectedFlowSection: React.FC = () => {
                 <div className="w-8 h-8 rounded-lg bg-zinc-800/80 border border-zinc-700/80 text-[#f97316] flex items-center justify-center mb-3 group-hover:border-orange-500/40 transition-colors">
                   <Icon className="w-4 h-4" />
                 </div>
-                <span className="font-mono text-[10px] text-zinc-500 font-bold block mb-1">0{idx + 1}</span>
+                <span className="font-mono text-[10px] text-zinc-500 font-bold block mb-1">Passo 0{idx + 1}</span>
                 <h3 className="text-xs sm:text-sm font-bold text-white mb-1.5">{item.title}</h3>
                 <p className="text-[11px] text-zinc-400 leading-relaxed">{item.desc}</p>
               </div>
@@ -78,28 +73,28 @@ export const ConnectedFlowSection: React.FC = () => {
         })}
       </div>
 
-      {/* Benefit Highlight: Atendimento + Comercial + Contexto */}
+      {/* Central Outcome Box: O AITOMat conduz, a equipe decide e fecha */}
       <div className="p-8 sm:p-12 rounded-2xl bg-gradient-to-br from-zinc-900/80 via-zinc-900/40 to-zinc-950 border border-zinc-800 flex flex-col lg:flex-row items-center justify-between gap-8">
         <div className="max-w-2xl space-y-3 text-left">
           <span className="text-[11px] font-mono uppercase tracking-wider text-[#f97316] font-semibold">
-            Contexto Operacional Sem Ruídos
+            MENSAGEM CENTRAL
           </span>
           <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
-            Atendimento e vendas trabalhando dentro do mesmo contexto.
+            O AITOMat conduz a operação. Sua equipe decide e fecha.
           </h3>
           <p className="text-xs sm:text-sm text-zinc-400 leading-relaxed">
-            Quando a conversa acontece em um lugar e a oportunidade é acompanhada em outro, parte da operação se perde. No AITOMat, atendimento, relacionamento e jornada comercial funcionam conectados, garantindo que o vendedor saiba exatamente o que foi conversado e a gestão tenha controle dos resultados.
+            A máquina executa o operacional repetitivo para o seu time voltar a pensar. Quando atendimento, CRM e IA trabalham juntos, o vendedor recebe o contato pronto com resumo, contexto e próxima ação sugerida.
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-4 w-full lg:w-auto flex-shrink-0">
           <div className="p-4 rounded-xl bg-zinc-950/80 border border-zinc-800 text-center">
-            <span className="text-xl sm:text-2xl font-bold text-white block">100%</span>
-            <span className="text-[11px] text-zinc-400">Histórico Preservado</span>
+            <span className="text-xl sm:text-2xl font-bold text-[#f97316] block">70%</span>
+            <span className="text-[11px] text-zinc-400">Rotina Autônoma</span>
           </div>
           <div className="p-4 rounded-xl bg-zinc-950/80 border border-zinc-800 text-center">
-            <span className="text-xl sm:text-2xl font-bold text-[#f97316] block">Tempo Real</span>
-            <span className="text-[11px] text-zinc-400">Contexto Compartilhado</span>
+            <span className="text-xl sm:text-2xl font-bold text-white block">100%</span>
+            <span className="text-[11px] text-zinc-400">Contexto Preservado</span>
           </div>
         </div>
       </div>

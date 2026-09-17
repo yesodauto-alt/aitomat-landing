@@ -8,7 +8,6 @@ import { CalendarSection } from "./components/CalendarSection";
 import { IntelligenceSection } from "./components/IntelligenceSection";
 import { AutomationSection } from "./components/AutomationSection";
 import { ArchitectureSection } from "./components/ArchitectureSection";
-import { PlatformPillars } from "./components/PlatformPillars";
 import { StepsSection } from "./components/StepsSection";
 import { ManifestoSection } from "./components/ManifestoSection";
 import { FinalCtaSection } from "./components/FinalCtaSection";
@@ -56,13 +55,10 @@ export function App() {
         {/* 7 & 10. Automação & Canais Oficiais (WhatsApp Meta API Oficial) */}
         <AutomationSection onOpenContact={handleOpenContact} />
 
-        {/* 8. Ecossistema: Arquitetura Operacional Integrada */}
+        {/* 8. Ecossistema: Arquitetura Operacional Unificada (4 blocos) */}
         <ArchitectureSection />
 
-        {/* 9. 7 Pilares: Princípios arquiteturais lapidados */}
-        <PlatformPillars />
-
-        {/* 11. Como Funciona: Implantação em 3 etapas claras */}
+        {/* 9. Como Funciona: Implantação em 3 etapas claras */}
         <StepsSection onOpenContact={handleOpenContact} />
 
         {/* Posicionamento da Marca & Frases de Impacto */}

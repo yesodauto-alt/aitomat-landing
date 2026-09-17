@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 import { ChevronDown, HelpCircle, ArrowRight } from "lucide-react";
 import { WHATSAPP_LINK } from "../constants";
 
@@ -11,24 +11,24 @@ export const FaqSection: React.FC<FaqProps> = ({ onOpenContact }) => {
 
   const faqs = [
     {
+      q: "O que significa o AITOMat ser 70% autônomo?",
+      a: "Significa que o sistema assume a maior parte do trabalho braçal da operação: atende 24/7, faz a triagem por intenção, resume conversas, atualiza o CRM, organiza prioridades de compra e sugere os próximos passos. A sua equipe não perde tempo com rotinas mecânicas e foca onde o humano é indispensável: negociar, tomar decisões e fechar vendas."
+    },
+    {
       q: "O AITOMat utiliza a API Oficial do WhatsApp?",
-      a: "Sim. O AITOMat integra-se diretamente à API Oficial da Meta (WhatsApp Business Platform). Isso assegura estabilidade corporativa, infraestrutura oficial em nuvem, segurança para sua marca e eliminação de riscos de bloqueio."
+      a: "Sim. O AITOMat conecta-se diretamente à API Oficial da Meta (WhatsApp Business Platform). Isso garante infraestrutura estável em nuvem, conformidade total, segurança para o número da sua empresa e zero risco de bloqueio."
     },
     {
       q: "Como múltiplos atendentes trabalham no mesmo número oficial?",
-      a: "Toda a sua equipe comercial e de suporte atende através do mesmo número oficial. Você pode organizar atendentes por departamentos (Vendas, Suporte, Financeiro), transferir conversas com 1 clique e manter todo o histórico unificado."
+      a: "Toda a sua equipe comercial e de atendimento atende através de um único número oficial. É possível organizar os atendentes por departamentos (Comercial, Suporte, Financeiro), transferir conversas com 1 clique e manter todo o histórico preservado."
     },
     {
-      q: "Como a Inteligência Artificial participa da operação no dia a dia?",
-      a: "Diferente de chatbots isolados, a IA do AITOMat atua em duas camadas: na linha de frente (IA Assistente para triagem rápida e atendimento contextualizado) e nos bastidores (IA Interna para gerar resumos automáticos no CRM e sinalizar prioridades)."
+      q: "Como a plataforma ajuda no controle de marketing e CAC?",
+      a: "O AITOMat centraliza a origem de cada lead, o canal de entrada e o avanço no funil. Isso permite à gestão acompanhar com precisão quais canais trazem vendas reais e qual é o custo real de aquisição de cliente (CAC)."
     },
     {
-      q: "Como funciona a centralização entre atendimento e CRM?",
-      a: "Cada nova conversa e cada cliente atendido alimentam automaticamente a base de contatos e o pipeline de vendas. Sua equipe não precisa redigitar dados em sistemas separados: o contexto comercial é preservado em tempo real."
-    },
-    {
-      q: "Como posso conhecer a plataforma e iniciar a implantação?",
-      a: "Nossa equipe realiza um diagnóstico das necessidades operacionais da sua empresa e orienta toda a parametrização dos canais, equipes e inteligência."
+      q: "O AITOMat é um produto da Yesod Automation?",
+      a: "Sim. O AITOMat é um produto proprietário desenvolvido e mantido pela Yesod Automation, empresa especializada em automação e Inteligência Artificial aplicada a operações reais. Nossa equipe acompanha o diagnóstico e a implantação na sua empresa."
     }
   ];
 

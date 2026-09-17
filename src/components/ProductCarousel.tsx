@@ -16,23 +16,23 @@ export const ProductCarousel: React.FC = () => {
       id: "inicio",
       number: "01 / 03",
       title: "Painel Geral e Áreas de Trabalho em Tempo Real",
-      badge: "Visão Geral Unificada",
+      badge: "70% Autônomo",
       image: "/aitomat-screen-inicio.png",
       alt: "AITOMat - Painel Geral e Áreas de Trabalho"
     },
     {
       id: "prioridades",
       number: "02 / 03",
-      title: "Prioridades e Temperatura Comercial dos Leads",
-      badge: "Score Operacional",
+      title: "Prioridades e Leads Prontos para Fechar",
+      badge: "Prioridades da Operação",
       image: "/aitomat-screen-prioridades.png",
-      alt: "AITOMat - Prioridades e Temperatura Comercial"
+      alt: "AITOMat - Painel de Prioridades e Leads Prontos para Fechar"
     },
     {
       id: "calendario",
       number: "03 / 03",
-      title: "Calendário Operacional e Agendamentos Conectados",
-      badge: "Agendamentos Integrados",
+      title: "Calendário Operacional e Lembretes via WhatsApp",
+      badge: "Redução de No-Show",
       image: "/aitomat-screen-calendario.png",
       alt: "AITOMat - Calendário e Agendamentos Integrados"
     }

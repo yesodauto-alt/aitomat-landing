@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { AlertTriangle, CheckCircle2 } from "lucide-react";
 
 export const ProblemSection: React.FC = () => {
@@ -12,7 +12,7 @@ export const ProblemSection: React.FC = () => {
           Sua operação não deveria depender de informações espalhadas.
         </h2>
         <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed">
-          Conversas desconectadas, clientes em bases separadas, oportunidades sem acompanhamento, tarefas dependendo de memória e falta de contexto entre atendimento, comercial e gestão. O AITOMat resolve isso ao centralizar a operação e transformar dados em ação.
+          Conversas desconectadas, oportunidades sem acompanhamento e tarefas dependendo de memória travam o crescimento. O AITOMat unifica atendimento, CRM e IA para transformar rotina em resultado.
         </p>
       </div>
 
@@ -25,22 +25,22 @@ export const ProblemSection: React.FC = () => {
               <AlertTriangle className="w-5 h-5" />
             </div>
             <h3 className="text-lg font-bold text-white mb-3">Quando a operação está fragmentada</h3>
-            <ul className="space-y-3.5 text-xs sm:text-sm text-zinc-400 leading-relaxed">
+            <ul className="space-y-3 text-xs sm:text-sm text-zinc-400 leading-relaxed">
               <li className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-rose-400 mt-2 flex-shrink-0" />
-                <span>Atendimentos distribuídos em celulares individuais sem visibilidade da gestão.</span>
+                <span>Conversas soltas em celulares sem visibilidade da gestão.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-rose-400 mt-2 flex-shrink-0" />
-                <span>Oportunidades comerciais esquecidas por falta de priorização e prazos claros.</span>
+                <span>Oportunidades esquecidas por falta de acompanhamento e prazos.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-rose-400 mt-2 flex-shrink-0" />
-                <span>Ferramentas isoladas de IA que respondem mensagens mas não atualizam o CRM.</span>
+                <span>IA que só responde mensagens, mas não alimenta o CRM.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-rose-400 mt-2 flex-shrink-0" />
-                <span>Dados de clientes perdidos entre planilhas, notas soltas e históricos apagados.</span>
+                <span>Histórico de clientes perdido entre planilhas e anotações.</span>
               </li>
             </ul>
           </div>
@@ -56,27 +56,27 @@ export const ProblemSection: React.FC = () => {
               <CheckCircle2 className="w-5 h-5" />
             </div>
             <h3 className="text-lg font-bold text-white mb-3">Com o AITOMat unificando tudo</h3>
-            <ul className="space-y-3.5 text-xs sm:text-sm text-zinc-300 leading-relaxed">
+            <ul className="space-y-3 text-xs sm:text-sm text-zinc-300 leading-relaxed">
               <li className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#f97316] mt-2 flex-shrink-0" />
-                <span>Atendimento, clientes e histórico integrados em um único ambiente seguro.</span>
+                <span>WhatsApp oficial, CRM, automação e IA em um só ambiente.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#f97316] mt-2 flex-shrink-0" />
-                <span>Prioridades claras destacando exatamente onde agir para fechar mais vendas.</span>
+                <span>Triagem por intenção e classificação automática de contatos.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#f97316] mt-2 flex-shrink-0" />
-                <span>Inteligência Artificial que participa da rotina, gerando resumos e triagem.</span>
+                <span>Resumos automáticos de conversas e tarefas sugeridas para a equipe.</span>
               </li>
               <li className="flex items-start gap-2.5">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#f97316] mt-2 flex-shrink-0" />
-                <span>Equipe com contexto compartilhado em tempo real para tomar decisões rápidas.</span>
+                <span>O sistema opera 70% da rotina para o time focar no fechamento.</span>
               </li>
             </ul>
           </div>
-          <div className="mt-8 pt-4 border-t border-orange-500/20 text-[11px] text-[#f97316] font-mono">
-            Resultado: Processos consistentes, clientes acompanhados e mais eficiência
+          <div className="mt-8 pt-4 border-t border-orange-500/20 text-[11px] text-[#f97316] font-mono font-semibold">
+            Resultado: Menos retrabalho, leads acompanhados, equipe focada em fechar
           </div>
         </div>
       </div>
