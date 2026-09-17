@@ -12,7 +12,7 @@ export const FaqSection: React.FC<FaqProps> = ({ onOpenContact }) => {
   const faqs = [
     {
       q: "O que significa o AITOMat ser 70% autônomo?",
-      a: "Significa que o sistema assume a maior parte do trabalho braçal da operação: atende 24/7, faz a triagem por intenção, resume conversas, atualiza o CRM, organiza prioridades de compra e sugere os próximos passos. A sua equipe não perde tempo com rotinas mecânicas e foca onde o humano é indispensável: negociar, tomar decisões e fechar vendas."
+      a: "Significa que o sistema assume a maior parte do trabalho braçal da operação: atende 24/7, faz a triagem por intenção, resume conversas, atualiza o CRM, organiza as prioridades da operação para sua equipe saber quais leads estão prontos para comprar agora e o tempo do último contato, sugerindo as próximas ações. A sua equipe não perde tempo com rotinas mecânicas e foca onde o humano é indispensável: negociar, tomar decisões e fechar vendas."
     },
     {
       q: "O AITOMat utiliza a API Oficial do WhatsApp?",

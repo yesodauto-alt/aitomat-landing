@@ -20,8 +20,8 @@ export const ConnectedFlowSection: React.FC = () => {
     },
     {
       icon: Flag,
-      title: "Prioridade",
-      desc: "Destaque automático de quais leads estão prontos para comprar agora."
+      title: "Prioridades da Operação",
+      desc: "Saber quais leads estão prontos para comprar agora e o tempo desde o último contato."
     },
     {
       icon: CheckSquare,

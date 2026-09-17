@@ -20,7 +20,7 @@ export const ArchitectureSection: React.FC = () => {
       desc: "Acompanhamento transparente de cada etapa do processo de vendas.",
       items: [
         "Funil de vendas visual em etapas claras e configuráveis",
-        "Triagem ágil para saber quais leads estão prontos para comprar",
+        "Saber quais leads estão prontos para comprar agora",
         "Gestão de oportunidades e controle do custo de aquisição (CAC)"
       ],
       tag: "Vendas & CRM"
@@ -57,7 +57,7 @@ export const ArchitectureSection: React.FC = () => {
           <span>COMO A OPERAÇÃO SE ORGANIZA</span>
         </div>
         <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
-          A arquitetura operacional do AITOMat
+          Como a operação se organiza no AITOMat
         </h2>
         <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed">
           Um ecossistema único onde atendimento, gestão comercial, automação e inteligência trabalham juntos para sustentar a sua operação.

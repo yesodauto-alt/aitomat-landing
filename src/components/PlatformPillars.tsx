@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import { MessageSquare, Bot, Kanban, Send, Zap, Users, BarChart3, CheckCircle2 } from "lucide-react";
 
 export const PlatformPillars: React.FC = () => {
@@ -66,10 +66,10 @@ export const PlatformPillars: React.FC = () => {
       <div className="text-center max-w-3xl mx-auto mb-16">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-zinc-900 border border-zinc-800 rounded-md text-[11px] font-mono text-zinc-400 mb-4">
           <span className="w-1.5 h-1.5 rounded-full bg-[#f97316]"></span>
-          <span>PILARIZAÇÃO OPERACIONAL</span>
+          <span>COMO A OPERAÇÃO SE ORGANIZA</span>
         </div>
         <h2 className="text-2xl sm:text-4xl font-bold tracking-tight text-white leading-tight">
-          7 Pilares que sustentam a operação AITOMat
+          Como a operação se organiza em 7 pilares estruturais
         </h2>
         <p className="mt-4 text-zinc-400 text-sm sm:text-base leading-relaxed">
           Princípios arquiteturais desenvolvidos para proporcionar estabilidade, clareza e ritmo ao dia a dia da sua empresa.

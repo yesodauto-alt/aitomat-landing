@@ -23,10 +23,10 @@ export const ProductCarousel: React.FC = () => {
     {
       id: "prioridades",
       number: "02 / 03",
-      title: "Prioridades e Leads Prontos para Fechar",
+      title: "Prioridades da Operação e Leads Prontos para Comprar Agora",
       badge: "Prioridades da Operação",
       image: "/aitomat-screen-prioridades.png",
-      alt: "AITOMat - Painel de Prioridades e Leads Prontos para Fechar"
+      alt: "AITOMat - Prioridades da Operação, Leads Prontos para Comprar Agora e Último Contato"
     },
     {
       id: "calendario",
