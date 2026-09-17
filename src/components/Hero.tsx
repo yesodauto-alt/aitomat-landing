@@ -1,6 +1,6 @@
 import React from "react";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
-import { ProductCarousel } from "./ProductCarousel";
+import { HeroVideo } from "./HeroVideo";
 import { WHATSAPP_LINK } from "../constants";
 
 interface HeroProps {
@@ -83,8 +83,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenContact }) => {
           </div>
         </div>
 
-        {/* Product Carousel Showcase - Matching TechPro reference effect */}
-        <ProductCarousel />
+        {/* 16:9 Video Showcase */}
+        <HeroVideo />
       </div>
     </section>
   );
