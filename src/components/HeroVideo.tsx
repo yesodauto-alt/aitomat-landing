@@ -1,17 +1,6 @@
-﻿import React, { useRef, useState } from "react";
-import { Volume2, VolumeX, Sparkles } from "lucide-react";
+﻿import React from "react";
 
 export const HeroVideo: React.FC = () => {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [isMuted, setIsMuted] = useState(true);
-
-  const toggleMute = () => {
-    if (videoRef.current) {
-      videoRef.current.muted = !videoRef.current.muted;
-      setIsMuted(videoRef.current.muted);
-    }
-  };
-
   return (
     <div className="relative max-w-4xl mx-auto pt-8 sm:pt-12 px-2 sm:px-0">
       {/* Ambient Backlight Glow */}
@@ -33,25 +22,13 @@ export const HeroVideo: React.FC = () => {
               <span>AITOMat — Demonstração Operacional</span>
             </div>
 
-            <div className="flex items-center gap-1.5">
-              <button
-                onClick={toggleMute}
-                title={isMuted ? "Ativar som" : "Desativar som"}
-                className="p-1 rounded-md text-zinc-400 hover:text-white hover:bg-zinc-800 transition-colors cursor-pointer"
-              >
-                {isMuted ? <VolumeX className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5 text-[#f97316]" />}
-              </button>
-              <span className="hidden sm:inline-flex items-center gap-1 text-[10px] font-mono text-orange-400 bg-orange-500/10 border border-orange-500/30 px-2 py-0.5 rounded">
-                <Sparkles className="w-2.5 h-2.5" />
-                16:9 HD
-              </span>
-            </div>
+            {/* Spacer to keep center title balanced */}
+            <div className="w-10" />
           </div>
 
           {/* 16:9 Video Canvas */}
-          <div className="relative aspect-video w-full bg-black overflow-hidden group">
+          <div className="relative aspect-video w-full bg-black overflow-hidden">
             <video
-              ref={videoRef}
               src="/AITOMat_Site.mp4"
               controls
               autoPlay
@@ -60,17 +37,6 @@ export const HeroVideo: React.FC = () => {
               playsInline
               className="w-full h-full object-contain bg-black"
             />
-
-            {/* Floating Sound Toggle Pill for easy interaction */}
-            {isMuted && (
-              <button
-                onClick={toggleMute}
-                className="absolute bottom-14 right-4 z-20 inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-zinc-900/90 hover:bg-zinc-800 text-white text-[11px] font-mono border border-white/20 shadow-lg backdrop-blur-sm transition-all cursor-pointer group-hover:opacity-100 opacity-90"
-              >
-                <VolumeX className="w-3.5 h-3.5 text-[#f97316]" />
-                <span>Clique para ativar o som</span>
-              </button>
-            )}
           </div>
         </div>
       </div>
